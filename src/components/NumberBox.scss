@@ -1,0 +1,14 @@
+.NumberBox{
+    border: 2px solid black;
+    height: 100px;
+    grid-column: 1/5;
+    padding: 20px;
+    margin: 10px;
+    color: gray;
+    text-align: right;
+    font-size: 50px;
+}
+.previous{
+    color: lightgray;
+    font-size: 30px;
+}

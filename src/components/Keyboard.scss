@@ -1,0 +1,30 @@
+.Keyboard{
+    display: grid;
+    width: 90%;
+    height: 100%;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+.Button{
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-radius: 8px;
+    font-size: large;
+    transition: 0.21s linear;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.Button:hover{
+    background-color: rgb(105, 105, 105);
+}
+.zero{
+    grid-column: 1/4;
+}
+.delete{
+    grid-column: 1/3;
+    background-color: rgb(184, 32, 32);
+}
+.delete:hover{
+    background-color: rgb(255, 0, 0);
+}
